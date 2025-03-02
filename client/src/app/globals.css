@@ -18,3 +18,8 @@ body,
   @apply bg-white;
   @apply dark:bg-black;
 }
+
+/* AppSidebar */
+.sidebar__menu {
+  @apply fixed z-40 flex h-full flex-col justify-between overflow-y-auto bg-white shadow-xl transition-all duration-300 dark:bg-black text-green-700;
+}
